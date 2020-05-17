@@ -17,7 +17,7 @@
 		B7A4F0D22462CA9E00DFC2C8 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0D12462CA9E00DFC2C8 /* LoginTableViewController.swift */; };
 		B7A4F0D42462CD8100DFC2C8 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0D32462CD8100DFC2C8 /* EmailTableViewCell.swift */; };
 		B7A4F0D62462D75800DFC2C8 /* PasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0D52462D75800DFC2C8 /* PasswordTableViewCell.swift */; };
-		B7A4F0D82470F12600DFC2C8 /* SessionCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0D72470F12600DFC2C8 /* SessionCreate.swift */; };
+		B7A4F0D82470F12600DFC2C8 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0D72470F12600DFC2C8 /* SessionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		B7A4F0D12462CA9E00DFC2C8 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
 		B7A4F0D32462CD8100DFC2C8 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
 		B7A4F0D52462D75800DFC2C8 /* PasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTableViewCell.swift; sourceTree = "<group>"; };
-		B7A4F0D72470F12600DFC2C8 /* SessionCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCreate.swift; sourceTree = "<group>"; };
+		B7A4F0D72470F12600DFC2C8 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		CC36A5D944DB31E84C84E228 /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
 		E2F6636A78366CD1BDC2413D /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +98,7 @@
 				B7A4F0D12462CA9E00DFC2C8 /* LoginTableViewController.swift */,
 				B7A4F0D32462CD8100DFC2C8 /* EmailTableViewCell.swift */,
 				B7A4F0D52462D75800DFC2C8 /* PasswordTableViewCell.swift */,
-				B7A4F0D72470F12600DFC2C8 /* SessionCreate.swift */,
+				B7A4F0D72470F12600DFC2C8 /* SessionController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -221,7 +221,7 @@
 				B7A4F0D62462D75800DFC2C8 /* PasswordTableViewCell.swift in Sources */,
 				B7A4F0C22462C91F00DFC2C8 /* ViewController.swift in Sources */,
 				B7A4F0D22462CA9E00DFC2C8 /* LoginTableViewController.swift in Sources */,
-				B7A4F0D82470F12600DFC2C8 /* SessionCreate.swift in Sources */,
+				B7A4F0D82470F12600DFC2C8 /* SessionController.swift in Sources */,
 				B7A4F0D42462CD8100DFC2C8 /* EmailTableViewCell.swift in Sources */,
 				B7A4F0BE2462C91F00DFC2C8 /* AppDelegate.swift in Sources */,
 				B7A4F0C02462C91F00DFC2C8 /* SceneDelegate.swift in Sources */,
