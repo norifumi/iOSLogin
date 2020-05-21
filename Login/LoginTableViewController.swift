@@ -26,7 +26,7 @@ class LoginTableViewController: UITableViewController {
         super.viewWillAppear(animated)
         var user = User()
         user.email = "taro.appium@example.com"
-        user.password = "p@ssw0rdo"
+        user.password = "p@ssw0rd"
         sessionCreate = SessionController(user: user)
         
         sessionAPIObserver = NotificationCenter.default.addObserver(forName: .sessionAPIComplete, object: nil, queue: nil, using: {
@@ -41,6 +41,10 @@ class LoginTableViewController: UITableViewController {
                             action in return
                         })
                         self.present(alertView, animated: true, completion: nil)
+                    } else {
+                        print(userInfo["idAccessToken"])
+                        NameTextView().insertText("uattta-")
+                        self.performSegue(withIdentifier: "PushDashboard", sender: self)
                     }
                 }
             }

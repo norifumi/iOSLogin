@@ -94,10 +94,60 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Log in" id="rHo-o3-2h3" userLabel="Log in"/>
+                    <connections>
+                        <segue destination="Gvw-9N-fUh" kind="show" identifier="PushDashboard" id="PZK-XK-0Fd"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P8V-rh-Bge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-315" y="68"/>
+            <point key="canvasLocation" x="-236" y="68"/>
+        </scene>
+        <!--Dashboard-->
+        <scene sceneID="msr-as-51J">
+            <objects>
+                <tableViewController id="Gvw-9N-fUh" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="E9L-ab-tys">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pcf-Jx-Zqe">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pcf-Jx-Zqe" id="tj6-x6-8Hm">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cRW-47-Ge5" customClass="NameTextView" customModule="Login" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="414" id="tFC-5z-nWX"/>
+                                            </constraints>
+                                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="cRW-47-Ge5" firstAttribute="top" secondItem="tj6-x6-8Hm" secondAttribute="top" id="KoG-mh-pLw"/>
+                                        <constraint firstAttribute="bottom" secondItem="cRW-47-Ge5" secondAttribute="bottom" id="eIR-5h-t0q"/>
+                                        <constraint firstItem="cRW-47-Ge5" firstAttribute="leading" secondItem="tj6-x6-8Hm" secondAttribute="leading" id="tB0-mv-3NC"/>
+                                        <constraint firstAttribute="trailing" secondItem="cRW-47-Ge5" secondAttribute="trailing" id="yQg-dh-BW6"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Gvw-9N-fUh" id="Zqm-dK-D07"/>
+                            <outlet property="delegate" destination="Gvw-9N-fUh" id="x8y-H7-Q17"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Dashboard" id="Fag-lp-J2c"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mPW-Ow-Yd5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="432" y="68"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xhR-px-grL">

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF04A30DD9F1E794615DED00 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290F270B2BBB73C0A324050D /* Pods_Login.framework */; };
+		B7333E70247658070018D5A6 /* NameTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7333E6F247658070018D5A6 /* NameTextView.swift */; };
 		B7A4F0BE2462C91F00DFC2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0BD2462C91F00DFC2C8 /* AppDelegate.swift */; };
 		B7A4F0C02462C91F00DFC2C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0BF2462C91F00DFC2C8 /* SceneDelegate.swift */; };
 		B7A4F0C22462C91F00DFC2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F0C12462C91F00DFC2C8 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		290F270B2BBB73C0A324050D /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7333E6F247658070018D5A6 /* NameTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextView.swift; sourceTree = "<group>"; };
 		B7A4F0BA2462C91F00DFC2C8 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A4F0BD2462C91F00DFC2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7A4F0BF2462C91F00DFC2C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				B7A4F0D32462CD8100DFC2C8 /* EmailTableViewCell.swift */,
 				B7A4F0D52462D75800DFC2C8 /* PasswordTableViewCell.swift */,
 				B7A4F0D72470F12600DFC2C8 /* SessionController.swift */,
+				B7333E6F247658070018D5A6 /* NameTextView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				B7A4F0D82470F12600DFC2C8 /* SessionController.swift in Sources */,
 				B7A4F0D42462CD8100DFC2C8 /* EmailTableViewCell.swift in Sources */,
 				B7A4F0BE2462C91F00DFC2C8 /* AppDelegate.swift in Sources */,
+				B7333E70247658070018D5A6 /* NameTextView.swift in Sources */,
 				B7A4F0C02462C91F00DFC2C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

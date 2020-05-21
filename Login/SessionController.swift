@@ -69,7 +69,8 @@ public class SessionController {
                 if response.error == nil && response.data != nil {
                     
                     json = try SwiftyJSON.JSON(data: response.data!)
-                    self.user.parseIdAccessToken(idAccessToken: json)
+                    NotificationCenter.default.post(name: .sessionAPIComplete, object: nil, userInfo: ["idAccessToken": json["id_access_token"].string])
+                    return
                 }
             } catch {
                 if let error = response.error {
